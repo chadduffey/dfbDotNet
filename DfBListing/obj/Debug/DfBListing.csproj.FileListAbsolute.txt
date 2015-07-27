@@ -1,0 +1,11 @@
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\bin\Debug\DfBListing.exe.config
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\bin\Debug\DfBListing.exe
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\bin\Debug\DfBListing.pdb
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\obj\Debug\DfBListing.csprojResolveAssemblyReference.cache
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\obj\Debug\DfBListing.Properties.Resources.resources
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\obj\Debug\DfBListing.csproj.GenerateResource.Cache
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\obj\Debug\DfBListing.exe
+c:\users\chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\obj\Debug\DfBListing.pdb
+C:\Users\Chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Chad\documents\visual studio 2013\Projects\DfBListing\DfBListing\obj\Debug\DfBListing.Profile.resources
