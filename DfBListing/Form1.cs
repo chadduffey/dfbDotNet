@@ -107,23 +107,24 @@ namespace DfBListing
         private void button1_Click(object sender, EventArgs e)
         {
             textBox1.Text = txtboxToken.Text;
-            comboBox1.Items.Add("Test");
-            comboBox1.Items.Add("Second Test");
+            
 
             //call the API
             string testtext = dfb_members_list();
 
             textBox1.Text = testtext;
 
-            //Dictionary<string, string>[] members = JsonConvert.DeserializeObject<Dictionary<string, string>[]>(testtext);
-            
-            //System.Diagnostics.Debug.WriteLine(members[0]["surname"]);
-
             DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Team));
             MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(testtext));
             Team obj = (Team)ser.ReadObject(stream);
 
-            
+            int totalMembers = obj.members.Count;
+
+            for (int i = 0; i < totalMembers; i++)
+            {
+                string fullname = obj.members[i].profile.given_name + " " + obj.members[i].profile.surname;
+                comboBox1.Items.Add(fullname);
+            }
         }
 
         private string dfb_members_list()
@@ -181,8 +182,6 @@ namespace DfBListing
 
             catch (WebException error)
             {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                System.Console.WriteLine("We hit a snag: " + error);
                 return "We hit an error in basicAPIcall()";
             }
 
