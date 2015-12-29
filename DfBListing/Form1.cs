@@ -78,7 +78,7 @@ namespace DfBListing
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            txtboxToken.Text = "32Wp8V0dZ28AAAAAAACiCt2gcRLGDd-2IeDXLTuS3sV6NiQSCucUZ5u8RFECzRdQ";
+            txtboxToken.Text = "3tokentoken";
             
             //
             // This is the first node in the view.
